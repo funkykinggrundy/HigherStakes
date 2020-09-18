@@ -1,0 +1,150 @@
+.top{
+
+
+}
+.background{
+
+background-image: url('stars.jpeg');
+
+
+margin: 0;
+padding: 0;
+}
+
+
+body {
+
+  margin: 0;
+padding: 0;
+
+}
+
+@font-face {
+    font-family: 'death_starregular';
+    src: url('/fonts/egg/deathstar-vmwb-webfont.woff2') format('woff2'),
+         url('/fonts/egg/deathstar-vmwb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+font-size: 5
+  font-family: 'death_starregular';
+}
+
+p1{
+
+  font-family: 'death_starregular'
+}
+
+.left-column{
+width: 40%;
+margin-left: 300px
+
+}
+#rcorners1 {
+border-radius: 15px;
+background:
+#AAAAAA;
+padding: 20px;
+width: 290px;
+height: 150px;
+border: 1px solid;
+box-shadow: 5px 10px #888888;
+color: snow;
+}
+
+
+/* ///I foudn this bottom bit on CSS tricks dot com/// */
+body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
+.fade {
+  position: relative;
+  width: 100%;
+  min-height: 60vh;
+  top: -25px;
+
+  z-index: 1;
+}
+
+.star-wars {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 800px;
+  color: #feda4a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 500%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  perspective: 400px;
+  text-align: justify;
+}
+
+.crawl {
+  position: relative;
+  top: 99999px;
+  transform-origin: 50% 100%;
+  animation: crawl 60s linear;
+}
+
+.crawl > .title {
+  font-size: 90%;
+  text-align: center;
+}
+
+.crawl > .title h1 {
+  margin: 0 0 100px;
+  text-transform: uppercase;
+}
+
+@keyframes crawl {
+    0% {
+    top: -100px;
+    transform: rotateX(20deg)  translateZ(0);
+  }
+    100% {
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+/* /////I followed a tutorial at css-tricks.com/// */
+
+a:visited{
+  color: white
+}
+
+
+.top-row {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 250px;
+  margin-left: 500px;
+}
+
+.top-column{
+flex: 50%;
+padding: 5px 5px 5px 5px;
+
+}
+
+.meet{
+
+
+
+}
+#jedi{
+  width: 60%
+}
+
+#empire{
+width: 60%
+
+}
